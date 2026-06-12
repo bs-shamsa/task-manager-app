@@ -1,25 +1,24 @@
 # Task-Manager-App
-An application where we can add, edit and delete a task, It is simple Task Management Application using Python technology
-<<<<<<< HEAD
+An application where we can add, edit and delete a task, It is simple Task Management Application using html,css and javascript technology.
 
 # Step 1: Create Repository
 Create a new public GitHub repository.
 
+# Step 2: Branching
+Make a develop Branch and after that make 4 sub-branches in that too... main -- initial branch develop - second branch feature/task-create -- sub-branch feature/task-update -- sub-branch feature/task-delete -- sub-branch feature/task-complete -- sub-branch
 
-# Step 2: Branching 
-Make a develop Branch and after that make 4 sub-branches in that too...
-main -- initial branch
-develop - second branch
-feature/task-create -- sub-branch
-feature/task-update -- sub-branch
-feature/task-delete -- sub-branch
-feature/task-complete -- sub-branch
-
-# Step 3: 
+# Step 3:
 we are creating files in the feature branches for doing testing or for making a graph..
 
-# Step 4: 
+# Step 4:
 After that we add feature branches into develop and resolve the manual confilcts at the time of merging the files.
 
+# Step 5:
+Rebase the develop sub branch - feature/task-delete
 
+# Step 6:
+reflog - checking the history of cmmits
+and also use log --oneline to check the commands...
 
+# step 7 :
+make all changes of all branches into main branch
