@@ -15,7 +15,12 @@ feature/task-delete -- sub-branch
 feature/task-complete -- sub-branch
 
 # Step 3: 
+we are creating files in the feature branches for doing testing or for making a graph..
 
-# git tags
+# Step 4: 
+after that we add feature branches into develop and resolve the manual confilcts at the time of merging the files.
+
+
+# git tags 
 git tag v1.0.0
 git push origin v1.0.0
