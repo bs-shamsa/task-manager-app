@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+</head>
+<body>
+
+    <h2>Task Management App</h2>
+
+    <!-- Task Input -->
+    <input type="text" id="taskInput" placeholder="Enter your task">
+
+    <!-- Add Button -->
+    <button onclick="addTask()">Add Task</button>
+
+    <!-- Display Task List -->
+    <ul id="taskList"></ul>
+
+    <script>
+        function addTask() {
+            let taskInput = document.getElementById("taskInput");
+            let taskText = taskInput.value;
+
+            if (taskText === "") {
+                alert("Please enter a task");
+                return;
+            }
+
+            let li = document.createElement("li");
+            li.textContent = taskText;
+
+            document.getElementById("taskList").appendChild(li);
+
+            taskInput.value = "";
+        }
+    </script>
+
+</body>
+</html>
