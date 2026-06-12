@@ -19,7 +19,7 @@ feature/task-complete -- sub-branch
 we are creating files in the feature branches for doing testing or for making a graph..
 
 # Step 4: 
-after that we add feature branches into develop and resolve the manual confilcts at the time of merging the files.
+After that we add feature branches into develop and resolve the manual confilcts at the time of merging the files.
 
 
 
